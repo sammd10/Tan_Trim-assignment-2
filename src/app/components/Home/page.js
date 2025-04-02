@@ -59,7 +59,7 @@ function HomePage() {
       <ul className="text-white list-unstyled mt-5 d-flex  justify-content-between flex-wrap">
         <li className="fw-semibold">Bags . Backpacks</li>
         <li className="d-flex align-items-center">
-          <span className="me-3 fw-semibold">13 products</span>
+          <span className="me-3 fw-semibold">{data?.length} products</span>
           <Image
             src="/images/Vector 4.png"
             alt="/images/Vector 4.png"
